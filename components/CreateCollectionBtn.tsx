@@ -13,6 +13,7 @@ function CreateCollectionBtn() {
             <Button
                 variant={"outline"}
                 className='dark:text-white w-full dark:bg-neutral-950 bg-white'
+                onClick={() => setOpen(true)}
             >
                 <span className='bg-gradient-to-r from-red-500 to-orange-500 hover:to-orange-800 bg-clip-text text-transparent'>
                     Create Collection
