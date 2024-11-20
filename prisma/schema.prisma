@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = env("NEXT_DATABASE_URL")
+  url      = "file:./dev.db"
 }
 
 model Collection {
